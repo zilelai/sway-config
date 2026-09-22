@@ -4,5 +4,9 @@ So I won't put that much stuff under here
 
 Initials you need:
 -python3
+
 -rofi
+
 -sway
+
+-waybar
