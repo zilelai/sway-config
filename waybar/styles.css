@@ -1,0 +1,44 @@
+* {
+    font-family: "Rubik";
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.9);
+    color: #cdd6f4;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: #cdd6f4;
+    background: transparent;
+}
+
+#workspaces button.focused {
+    background-color: #313244;
+    border-radius: 8px;
+    color: #89b4fa;
+}
+
+#custom-fedora {
+    font-weight: bold;
+    color: #89b4fa;
+    padding: 0 12px;
+}
+
+#clock,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#tray {
+    padding: 0 10px;
+}
+
+#battery.charging {
+    color: #a6e3a1;
+}
+
+#network.disconnected {
+    color: #f38ba8;
+}
