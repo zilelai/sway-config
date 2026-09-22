@@ -1,0 +1,108 @@
+* {
+    bg-col:      #1e1e2eee;
+    bg-col-light: #313244;
+    border-col:  #89b4fa;
+    selected-col: #313244;
+    fg-col:      #cdd6f4;
+    fg-col2:     #f38ba8;
+    grey:        #6c7086;
+
+    width: 600;
+    font: "Rubik 12";
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    height: 360px;
+    border: 2px;
+    border-color: @border-col;
+    background-color: @bg-col;
+    border-radius: 12px;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [prompt,entry];
+    background-color: @bg-col-light;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+}
+
+prompt {
+    background-color: @bg-col-light;
+    text-color:       @fg-col;
+    padding: 6px;
+}
+
+entry {
+    background-color: @bg-col-light;
+    text-color:       @fg-col;
+    placeholder: "What apps are you looking for?";
+    placeholder-color: @grey;
+}
+
+listview {
+    background-color: @bg-col;
+    columns: 1;
+    lines: 6;
+    spacing: 4px;
+}
+
+element {
+    background-color: @bg-col;
+    text-color: @fg-col;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @fg-col2;
+}
+
+configuration {
+	modes: "drun,run,window";
+	font: "Rubik 12";
+	show-icons: true;
+	icon-theme: "Papirus";
+	display-drun: "Apps";
+	disable-history: false;
+
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+* {
+    bg-col:      #1e1e2eee;
+    bg-col-light: #313244;
+    border-col:  #89b4fa;
+    selected-col: #313244;
+    fg-col:      #cdd6f4;
+    fg-col2:     #f38ba8;
+    grey:        #6c7086;
+    width: 600;
+}
+
+window {
+    height: 360px;
+    border: 2px;
+    border-color: @border-col;
+    background-color: @bg-col;
+    border-radius: 12px;
+}
+
+mainbox {
