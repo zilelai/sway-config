@@ -1,12 +1,24 @@
-This is my own sway config, still under development
+# sway-config
 
-So I won't put that much stuff under here
+My personal config files for the [Sway](https://swaywm.org/) window manager on Fedora Linux.
 
-Initials you need:
--python3
+## Requirements & Dependencies
 
--rofi
+Make sure you have Sway and the core tools installed:
 
--sway
+- **Compositor:** `sway`
+- **Terminal:** `foot` (you can change the main terminal to Ptyxis or other terminals)
+- **App Launcher:** `rofi-wayland`
+- **Status Bar:** `waybar`
+- **Notification Daemon:** `mako` or `dunst`
+- **Screen Lock:** `swaylock`
+- **Idle Daemon:** `swayidle`
+- **Screenshots:** `grim` + `slurp`
 
--waybar
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/zilelai/sway-config.git](https://github.com/zilelai/sway-config.git)
+
+2. Replace sway config file with this one
